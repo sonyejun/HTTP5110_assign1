@@ -1,0 +1,18 @@
+body{padding: 0px;margin: 0px; font-family: Arial, Helvetica, sans-serif; background: #fff; color: #000;}
+a:link{color:#F00}
+a:visited{color:#FC0}
+a:hover{background-color:#3CF; color:#03F}
+a:active{color:#F3F}
+
+.box {margin:10px; padding:10px; border: 1px solid #000; background-color:#666; clear:both; display: flex; align-items: center;}
+.logo{font-size:36px;}
+.logoimg{width: 36px;}
+.navlist li{display: inline; list-style-type:circle; line-height: 1.1em; margin: 0 .5em 0 -.5em; padding : 0 .5em 0 20px;}
+.navlist li + li{border-left: 1px solid #000;}
+.navlist li .deadnav{color: #FFF; background-color: #3CF;}
+.nav {margin:10px;padding:10px;background-color:#999;border-width:1px;border-color:black;border-style:solid}
+.left {width:20%; margin:10px; padding:10px; border: 1px solid #000; background-color:#CCC; float:left;}
+.centre {width:47%; margin:10px; padding:10px; background-color:#CCC; border: 1px solid #000; float:left;}
+.right { width:20%; margin:10px; padding:10px; background-color:#CCC; border: 1px solid #000; float:right;}
+.lower_nav {margin:10px; padding:10px; background-color:#999; border: 1px solid #000; clear:both;}
+.legal {margin:10px; padding:10px; background-color:#999; border: 1px solid #000; float:none; clear:both;}
